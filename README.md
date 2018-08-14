@@ -1,7 +1,7 @@
-#Description
+## Description
 This project is AWS serverless compatible Django application. The application stores and processes GeoJson data.
 
-####Tech used in this app
+#### Tech used in this app
  1) Django
  2) Django REST Framework
  3) MongoDB
