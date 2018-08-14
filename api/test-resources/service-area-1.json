@@ -1,0 +1,36 @@
+{
+  "name": "Test provider",
+  "price": 999,
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.515,
+              60.125
+            ],
+            [
+              40.515,
+              55.631
+            ],
+            [
+              65.0390625,
+              55.631
+            ],
+            [
+              65.0390625,
+              60.125
+            ],
+            [
+              40.515,
+              60.125
+            ]
+          ]
+        ]
+      }
+    ]
+  }
+}
