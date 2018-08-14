@@ -38,3 +38,45 @@ https://b09zlcti7k.execute-api.ap-southeast-1.amazonaws.com/dev/docs/
 #### A few more words
 There are some slight "bugs/features" related to documentation, they should be fixed implementing more sophisticated 
 Schema Generator. In the ideal worlds schema should always be generated automatically. Shouldn't be complicated.
+
+#### Example of service-area's payload
+As MongoDB schema generation is in process this payload might help
+```json
+{
+  "name": "Test provider",
+  "price": 999,
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.515,
+              60.125
+            ],
+            [
+              40.515,
+              55.631
+            ],
+            [
+              65.0390625,
+              55.631
+            ],
+            [
+              65.0390625,
+              60.125
+            ],
+            [
+              40.515,
+              60.125
+            ]
+          ]
+        ]
+      }
+    ]
+  }
+}
+
+```
